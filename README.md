@@ -1,8 +1,9 @@
 # ibm_app
 
-A new Flutter application.
+A new Flutter application to calculate BMI.
 
 ## Getting Started
+![image](https://user-images.githubusercontent.com/72301777/156677790-a8d02521-f3d5-4aa2-868f-060880f46735.png)
 
 This project is a starting point for a Flutter application.
 
