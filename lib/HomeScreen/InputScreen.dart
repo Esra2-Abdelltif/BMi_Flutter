@@ -1,9 +1,9 @@
-import 'dart:ffi';
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ibm_app/ResultScreen/ResultScreen.dart';
+
 
 
 class InputScreen extends StatefulWidget {
@@ -284,7 +284,13 @@ class _InputScreenState extends State<InputScreen> {
             child: MaterialButton(onPressed: (){
               double Result=weight/pow(height/100,2);
               print(Result.round());
-              Navigator.push(context,MaterialPageRoute(builder: (context) => ResultScreen(ismale: ismale,age: age,result:Result.round() ,)));
+              Navigator.push(context,MaterialPageRoute(builder: (context) =>
+                  ResultScreen(ismale: ismale,
+
+                    age: age,
+
+                    result: Result.round(),
+                  )));
 
             },
               color: Color(0xFFEB1555),
